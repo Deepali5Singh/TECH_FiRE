@@ -9,24 +9,27 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <!--SwipeR JS  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../CSS/about.css">
     <link rel="stylesheet" href="../CSS/courses.css">
     <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/Tech_Blog.css">
+    <link rel="stylesheet" href="../CSS/Job_Portal.css">
     <script src="https://kit.fontawesome.com/e1be37599c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
         <div class="container nav_container ">
-            <a href="../Html/index.html">
-                <h4>R.K.M.E.C</h4>
+            <!-- Logo -->
+            <a class="logo" href="../Html/index.html">TECH Fire</a>
+                <!-- <h4>TECH FiRE</h4> -->
             </a>
             <ul class="nav_menu">
                 <li> <a href="../Html/index.html">Home</a></li>
-                <li> <a href="../Html/about.html">About</a></li>
-                <li> <a href="../Html/courses.html">Courses</a></li>
-                <li> <a href="../Html/contact.html">Contact</a></li>
+                <li> <a href="../Html/Job_Portal.html">Job Portal</a></li>
+                <li> <a href="../Html/Tech_Blog.html">Tech Blog</a></li>
             </ul>
             <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
             <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></path>
@@ -39,7 +42,7 @@
         <div class="container header_container">
             <div class="header_left">
                 <h1>Grow your skills to advance career path</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Join us for your brilliant future. </p>
                 <a href="../Html/courses.html" class="btn btn-primary">Get Started</a>
             </div>
 
@@ -47,7 +50,7 @@
                 <div class="header_right_image">
                     <img src="../Images/20220818_185258_0000.png" alt="" width="100%">
                 </div>
-                <h4>Responsive soxial media website UI Design</h4>
+                <!-- <h4>Responsive social media website UI Design</h4> -->
             </div>
         </div>
     </header>
@@ -57,7 +60,7 @@
         <div class="container container_categories">
             <div class="categories_left">
                 <h1>Categories</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nobis </p>
+                <p>Know more about us by joining our team. </p>
                 <a href="#" class="btn">Learn More</a>
             </div>
 
@@ -67,40 +70,40 @@
                         <i class="fa-brands fa-youtube"></i>
                     </span>
                     <h5>Blockchain</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Distributed database</p>
                 </article>
 
                 <article class="category">
                     <span class="category-icon"><i class="fa-solid fa-cookie-bite"></i>
                     </span>
                     <h5>Grapics</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Sequence of edges</p>
                 </article>
 
                 <article class="category">
                     <span class="category-icon"> <i class="fa-regular fa-clock"></i>
                     </span>
                     <h5>Finance</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Business Planning </p>
                 </article>
 
                 <article class="category">
                     <span class="category-icon"> <i class="fa-solid fa-bullhorn"></i>
                     </span>
                     <h5>Marketing</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Learn concepts of marketing </p>
                 </article>
 
                 <article class="category">
                     <span class="category-icon"> <i class="fa-solid fa-music"></i> </span>
                     <h5>Music</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Live the  life </p>
                 </article>
 
                 <article class="category">
                     <span class="category-icon"><i class="fa-solid fa-coins"></i></span>
                     <h5>Business</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <p>Grow your business with us</p>
                 </article>
 
             </div>
@@ -367,11 +370,13 @@
         <div class="container footer_container">
             <div class="footer_1">
                 <a href="index.html" class="footer_logo">
-                    <h4>RKMEC</h4>
+                    <h4>TECH FiRE</h4>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci earum dolores tempore doloribus
-                    eveniet, eligendi, provident fugit corrupti delectus quod ipsam neque porro nam id, ab dolorum.
-                    Deleniti, sequi quos?</p>
+                <p>We are creating platform for learners. <br>
+                We are not stoping here and keeping ourselseves update with nech technology <br>
+                Join our team for better future<br>
+                And Keep learning
+            </p>
             </div>
             <div class="footer_2">
                 <h4>Pernalinks</h4>
@@ -435,10 +440,10 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   });
 
     </script>
